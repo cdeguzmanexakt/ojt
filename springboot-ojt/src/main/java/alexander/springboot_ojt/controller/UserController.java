@@ -17,6 +17,7 @@ public class UserController {
     @GetMapping("list")
         public List<User> listAllUser(){
         return userService.listAllUser();
+        System.out.println();
         }
 
 
